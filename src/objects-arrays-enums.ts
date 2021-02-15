@@ -17,10 +17,5 @@ const person = {
 	role: Role.OTHER
 };
 
-// person.role.push('woodie')
 // eslint-disable-next-line no-console
 console.log(person);
-person.hobbies.forEach((x) => {
-	// eslint-disable-next-line no-console
-	console.log(`${x}`);
-});

@@ -15,9 +15,3 @@ function combine(n1: Combinable, n2: Combinable, outputType: OutputType) {
 
 	return result;
 }
-
-// eslint-disable-next-line no-console
-console.log(combine(10, 5, OutputType.STRING));
-
-// eslint-disable-next-line no-console
-console.log(combine('Woodie', 'Westbrook', OutputType.NUMBER));
