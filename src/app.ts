@@ -1,16 +1,13 @@
-function combine(n1: number | string, n2: number | string) {
-	let result;
-	if (typeof n1 === 'number' && typeof n2 === 'number') {
-		result = n1 + n2;
-	} else {
-		result = n1.toString() + n2.toString();
-	}
-
-	return result;
+function addNumbers(n1: number, n2: number): number {
+	return n1 + n2;
 }
 
 // eslint-disable-next-line no-console
-console.log(combine(10, 5));
+console.log(addNumbers(10, 5));
 
-// eslint-disable-next-line no-console
-console.log(combine('Woodie', 'Westbrook'));
+let addStuff: (a: number, b: number) => number;
+
+// eslint-disable-next-line prefer-const
+addStuff = addNumbers;
+
+console.log(addStuff(1, 1));
