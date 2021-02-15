@@ -1,8 +1,12 @@
-function add(num1: number, num2: number) {
-	return num1 + num2;
+function add(n1: number, n2: number, showResult: boolean, message: string) {
+	const result = n1 + n2;
+
+	if (showResult) {
+		// eslint-disable-next-line no-console
+		console.log(`${message} ${result}`);
+	}
+	return result;
 }
 
-const number1: number = 5;
-const number2 = 10;
-
-console.log(add(number1, number2));
+// eslint-disable-next-line no-console
+console.log(add(10, 5, true, 'woodie said: '));

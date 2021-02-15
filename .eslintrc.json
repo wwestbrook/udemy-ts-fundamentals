@@ -5,6 +5,7 @@
         "node": true
     },
     "extends": [
+        "airbnb-base",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended"
     ],
@@ -23,6 +24,8 @@
 		"no-tabs": 0,
 		"indent": ["error", "tab"],
         "no-shadow": "off",
-        "@typescript-eslint/no-shadow": ["error"]
+        "@typescript-eslint/no-shadow": ["error"],
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": ["error"]
     }
 }
