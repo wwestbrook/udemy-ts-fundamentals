@@ -7,4 +7,5 @@ class Department {
 }
 
 const dept = new Department('IT');
+// eslint-disable-next-line no-console
 console.log(dept);
