@@ -13,7 +13,7 @@ const person = {
 	// } = {
 	name: 'Woodie Westbrook',
 	age: 46,
-	hobbies: ['cycling', 'gaming', 'madlibs', 'ww'],
+	hobbies: ['cycling', 'gaming', 'madlibs', 'ww', 'dog wrangling'],
 	role: Role.OTHER
 };
 
