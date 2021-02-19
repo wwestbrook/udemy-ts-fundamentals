@@ -5,6 +5,7 @@ enum Role {
 	OTHER
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const person = {
 	// 	name: string;
 	// 	age: number;
@@ -18,4 +19,4 @@ const person = {
 };
 
 // eslint-disable-next-line no-console
-console.log(person);
+// console.log(person);
